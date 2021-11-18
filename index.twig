@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+{% for item in navigation %}
+    <img src="{{ item.img }}">
+    <li> <input type="button" value="{{ item.button }}"></li>
+{% endfor %}
+</body>
+</html>
+
